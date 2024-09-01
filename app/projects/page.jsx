@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "../components/Banner/page";
-import Nav from "../components/Nav/page";
+import Banner from "../components/Banner/page.jsx";
+import Nav from "../components/Nav/page.jsx";
 
 const Projects = () => {
   return (

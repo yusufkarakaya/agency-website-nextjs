@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../components/Banner/page";
-import Nav from "../components/Nav/page";
-import Footer from "../components/Footer/page";
+import Banner from "../components/Banner/page.jsx";
+import Nav from "../components/Nav/page.jsx";
+import Footer from "../components/Footer/page.jsx";
 
 const About = () => {
   return (
