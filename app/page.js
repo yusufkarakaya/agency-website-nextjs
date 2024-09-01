@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/banner/page.jsx";
-import Nav from "./components/nav/page.jsx";
+import Nav from "./components/navbar/page.jsx";
 import Hero from "./components/hero/page.jsx";
 import ServicesSection from "./components/service-section/page.jsx";
 import Expertise from "./components/expertise-section/page.jsx";
