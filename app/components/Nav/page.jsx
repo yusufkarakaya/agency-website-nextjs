@@ -8,9 +8,9 @@ const Hero = () => {
         <span id="logo">
           <Link href="/">
             <span className="text-5xl font-semibold text-white">
-              CALITECH
+              StreamWave
               <strong className="text-3xl text-purple-600">
-                Solutions<span className="text-white">.</span>
+                Innovations<span className="text-white">.</span>
               </strong>
             </span>
           </Link>

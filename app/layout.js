@@ -11,9 +11,9 @@ const saira = Saira({
 });
 
 export const metadata = {
-  title: "Calitech Solutions",
+  title: "StreamWave Innovations.",
   description:
-    "Calitech Solutions is a software development company that specializes in web applications.",
+    "StreamWave Innovations is a software development company that specializes in web applications.",
 };
 
 export default function RootLayout({ children }) {

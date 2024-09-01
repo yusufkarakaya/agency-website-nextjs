@@ -32,7 +32,6 @@ const Expertise = () => {
               alt="Expertise Branding"
               width={550} // Set the desired width
               height={550} // Set the desired height
-              objectFit="cover" // Optional: adjust the image fitting
             />
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/banner/page";
-import Nav from "./components/Nav/page";
+import Nav from "./components/nav/page";
 import Hero from "./components/hero/page";
 import ServicesSection from "./components/service-section/page";
 import Expertise from "./components/expertise-section/page";
