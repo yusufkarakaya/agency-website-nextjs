@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Hero = () => {
+const Nav = () => {
   return (
     <div className="bg-black flex items-center justify-around px-28 py-6">
       <div>
@@ -39,4 +39,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Nav;
