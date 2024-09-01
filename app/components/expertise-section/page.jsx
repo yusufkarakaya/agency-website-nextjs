@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import expertiseImage from "../../../public/assets/expertise-seo.jpg";
 
 const Expertise = () => {
   return (
@@ -25,7 +27,13 @@ const Expertise = () => {
             </button>
           </div>
           <div>
-            <img src="https://via.placeholder.com/300" alt="placeholder" />
+            <Image
+              src={expertiseImage}
+              alt="Expertise Branding"
+              width={550} // Set the desired width
+              height={550} // Set the desired height
+              objectFit="cover" // Optional: adjust the image fitting
+            />
           </div>
         </div>
       </div>
