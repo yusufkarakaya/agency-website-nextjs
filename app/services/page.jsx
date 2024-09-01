@@ -1,8 +1,8 @@
 import React from "react";
-import Banner from "../components/banner/page";
-import Nav from "../components/nav/page";
-import OurServices from "../components/service-section/page";
-import Footer from "../components/footer/page";
+import Banner from "../components/Banner/page";
+import Nav from "../components/Nav/page";
+import OurServices from "../components/Service-section/page";
+import Footer from "../components/Footer/page";
 
 const Services = () => {
   return (
