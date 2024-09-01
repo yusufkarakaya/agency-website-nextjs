@@ -2,7 +2,7 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div className="bg-[#f6f7fc] p-20 mt-16">
+    <div className="bg-[#f6f7fc] py-36 mt-16">
       <div className="max-w-[1200px] m-auto ">
         <div className="container flex justify-between items-center">
           <div className="max-w-[660px]">
