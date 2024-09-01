@@ -1,11 +1,11 @@
 import React from "react";
-import Banner from "./components/Banner/page.jsx";
-import Nav from "./components/Nav/page.jsx";
-import Hero from "./components/Hero/page.jsx";
-import ServicesSection from "./components/Service-section/page.jsx";
-import Expertise from "./components/Expertise-section/page.jsx";
-import Contact from "./components/Contact-us/page.jsx";
-import Footer from "./components/Footer/page.jsx";
+import Banner from "./components/banner/page.jsx";
+import Nav from "./components/nav/page.jsx";
+import Hero from "./components/hero/page.jsx";
+import ServicesSection from "./components/service-section/page.jsx";
+import Expertise from "./components/expertise-section/page.jsx";
+import Contact from "./components/contact-us/page.jsx";
+import Footer from "./components/footer/page.jsx";
 
 const Home = () => {
   return (
