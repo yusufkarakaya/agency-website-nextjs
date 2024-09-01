@@ -20,7 +20,7 @@ const Contact = () => {
           <h1 className="text-white text-5xl">Contact With Us</h1>
           <p className="text-white text-xl mt-4">
             With passion and intellect, we drive business value by helping you
-            be known.
+            be known..
           </p>
         </div>
       </div>
