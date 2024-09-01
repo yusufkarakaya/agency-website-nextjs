@@ -4,7 +4,7 @@ const Contact = () => {
   const formActionUrl = process.env.NEXT_PUBLIC_FORMSPREE_URL;
 
   return (
-    <div className="mt-20 mb-20">
+    <div className="mt-24 mb-24">
       <h1 className="text-center text-3xl text-gray-700">
         <strong>CONTACT</strong>
       </h1>

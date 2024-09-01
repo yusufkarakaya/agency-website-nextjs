@@ -9,7 +9,7 @@ const Projects = () => {
       <Nav />
       <div className="relative bg-black p-32">
         {/* Background Text */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10">
+        <div className="absolute inset-0 flex items-center justify-center opacity-20">
           <h1 className="text-gray-400 text-[200px] font-bold">
             Innovate Forward
           </h1>

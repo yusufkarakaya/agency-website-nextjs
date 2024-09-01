@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="bg-gray-900 p-10 text-gray-300">
+    <>
+      <footer className="bg-gray-900 p-10 text-gray-300 mt-20">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Locations Section */}
           <div>
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   );
 };
 

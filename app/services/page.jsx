@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../components/banner/page";
 import Nav from "../components/nav/page";
+import OurServices from "../components/service-section/page";
+import Footer from "../components/footer/page";
 
 const Services = () => {
   return (
@@ -9,7 +11,7 @@ const Services = () => {
       <Nav />
       <div className="relative bg-black p-32">
         {/* Background Text */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10">
+        <div className="absolute inset-0 flex items-center justify-center opacity-20">
           <h1 className="text-gray-400 text-[200px] font-bold">
             Crafting Tomorrow
           </h1>
@@ -22,6 +24,9 @@ const Services = () => {
           </p>
         </div>
       </div>
+      <OurServices />
+
+      <Footer />
     </>
   );
 };
