@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="bg-[#fff] p-4 flex justify-around">
+    <div className="bg-[#fff] p-4 flex justify-around sm:flex-row flex-col items-center ">
       <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-1">
           <FaEnvelope />
