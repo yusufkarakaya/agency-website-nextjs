@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <div className="bg-black flex items-center justify-around px-28 py-6">
+    <div className="bg-black md:text-lg sm:flex sm:flex-col sm:justify-around sm:items-center md:flex-col lg:flex-row flex-col items-center  sm:px-28 sm:py-6 flex justify-center py-4">
       <div>
         <span id="logo">
           <Link href="/">
-            <span className="text-5xl font-semibold text-white">
+            <span className="sm:text-5xl text-3xl font-semibold text-white">
               StreamWave
               <strong className="text-3xl text-purple-600">
                 Innovations<span className="text-white">.</span>
