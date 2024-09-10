@@ -5,9 +5,9 @@ import expertiseImage from "../../../public/assets/expertise-seo.jpg";
 const Expertise = () => {
   return (
     <div className="bg-[#f6f7fc] py-36 mt-16">
-      <div className="max-w-[1200px] m-auto ">
-        <div className="container flex justify-between items-center">
-          <div className="max-w-[660px]">
+      <div className="max-w-[1200px] m-auto flex justify-center">
+        <div className="sm:flex sm:flex-row md:flex md:flex-col lg:flex-row p-5 container flex flex-col justify-between items-center">
+          <div className="max-w-[660px] p-5">
             <h2 className="text-4xl">
               <strong className="text-gray-700">EXPERTISE</strong>
             </h2>
