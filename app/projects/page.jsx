@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../components/banner/page.jsx";
 import Nav from "../components/navbar/page.jsx";
+import Footer from "../components/footer/page.jsx";
 
 const Projects = () => {
   return (
@@ -22,6 +23,8 @@ const Projects = () => {
           </p>
         </div>
       </div>
+      <div className="p-40">This page is currently under construction.</div>
+      <Footer />
     </>
   );
 };

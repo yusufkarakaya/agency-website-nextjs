@@ -24,8 +24,8 @@ const About = () => {
         </div>
       </div>
       <section className="container m-auto py-32">
-        <h2 className="text-4xl font-bold">Our Mission</h2>
-        <p className="text-lg mt-4">
+        <h2 className="text-4xl font-bold px-10">Our Mission</h2>
+        <p className="text-lg mt-4 px-10">
           At StreamWave Innovations, our passion and intellect are the driving
           forces behind everything we do. We are committed to delivering
           business value by ensuring that your brand stands out in the crowded

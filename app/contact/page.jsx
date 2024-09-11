@@ -26,7 +26,7 @@ const Contact = () => {
       </div>
       <section className="container m-auto ">
         <div className="flex flex-col md:flex-row justify-around items-center  ">
-          <div className="mb-8 md:mb-0">
+          <div className="mb-8 mt-8 md:mb-0">
             <h1 className="font-bold text-5xl leading-tight">
               Tell Us a story
             </h1>
