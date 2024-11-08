@@ -1,7 +1,7 @@
-import React from "react";
-import Banner from "../components/banner/page.jsx";
-import Nav from "../components/navbar/page.jsx";
-import Footer from "../components/footer/page.jsx";
+import React from 'react'
+import Banner from '../components/banner/page.jsx'
+import Nav from '../components/navbar/page.jsx'
+import Footer from '../components/footer/page.jsx'
 
 const About = () => {
   return (
@@ -16,8 +16,8 @@ const About = () => {
           </h1>
         </div>
         <div className="relative container m-auto">
-          <h1 className="text-white text-5xl">About Us</h1>
-          <p className="text-white text-xl mt-4">
+          <h1 className="text-white text-5xl text-center">About Us</h1>
+          <p className="text-white text-xl mt-4 text-center">
             With passion and intellect, we drive business value by helping you
             be known.
           </p>
@@ -42,7 +42,7 @@ const About = () => {
       </section>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

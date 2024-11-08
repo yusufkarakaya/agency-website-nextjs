@@ -1,7 +1,7 @@
-import React from "react";
-import Banner from "../components/banner/page.jsx";
-import Nav from "../components/navbar/page.jsx";
-import Footer from "../components/footer/page.jsx";
+import React from 'react'
+import Banner from '../components/banner/page.jsx'
+import Nav from '../components/navbar/page.jsx'
+import Footer from '../components/footer/page.jsx'
 
 const Projects = () => {
   return (
@@ -16,8 +16,8 @@ const Projects = () => {
           </h1>
         </div>
         <div className="relative container m-auto">
-          <h1 className="text-white text-5xl">Our Projects</h1>
-          <p className="text-white text-xl mt-4">
+          <h1 className="text-white text-5xl text-center">Our Projects</h1>
+          <p className="text-white text-xl mt-4 text-center">
             With passion and intellect, we drive business value by helping you
             be known.
           </p>
@@ -26,7 +26,7 @@ const Projects = () => {
       <div className="p-40">This page is currently under construction.</div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

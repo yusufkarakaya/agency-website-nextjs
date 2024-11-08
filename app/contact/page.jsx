@@ -1,8 +1,8 @@
-import React from "react";
-import Banner from "../components/banner/page.jsx";
-import Nav from "../components/navbar/page.jsx";
-import ContactForm from "../components/contact-us/page.jsx";
-import Footer from "../components/footer/page.jsx";
+import React from 'react'
+import Banner from '../components/banner/page.jsx'
+import Nav from '../components/navbar/page.jsx'
+import ContactForm from '../components/contact-us/page.jsx'
+import Footer from '../components/footer/page.jsx'
 
 const Contact = () => {
   return (
@@ -17,8 +17,8 @@ const Contact = () => {
           </h1>
         </div>
         <div className="relative container m-auto">
-          <h1 className="text-white text-5xl">Contact With Us</h1>
-          <p className="text-white text-xl mt-4">
+          <h1 className="text-white text-5xl text-center">Contact With Us</h1>
+          <p className="text-white text-xl mt-4 text-center">
             With passion and intellect, we drive business value by helping you
             be known..
           </p>
@@ -43,7 +43,7 @@ const Contact = () => {
       </section>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
