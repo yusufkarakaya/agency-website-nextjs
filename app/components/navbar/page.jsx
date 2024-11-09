@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const Nav = () => {
   return (
@@ -24,9 +24,9 @@ const Nav = () => {
           <li className="cursor-pointer border-b-2 border-transparent hover:border-purple-600 transition duration-300">
             <Link href="/about">About</Link>
           </li>
-          <li className="cursor-pointer border-b-2 border-transparent hover:border-purple-600 transition duration-300">
+          {/* <li className="cursor-pointer border-b-2 border-transparent hover:border-purple-600 transition duration-300">
             <Link href="/services">Services</Link>
-          </li>
+          </li> */}
           <li className="cursor-pointer border-b-2 border-transparent hover:border-purple-600 transition duration-300">
             <Link href="/projects">Projects</Link>
           </li>
@@ -36,7 +36,7 @@ const Nav = () => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav

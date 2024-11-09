@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -38,7 +38,7 @@ const Footer = () => {
 
         <div className="container mx-auto text-center text-gray-400 mt-8 border-t border-gray-700 pt-4">
           <p>© 2024 All Rights Reserved</p>
-          <div className="flex justify-center space-x-4 mt-4">
+          {/* <div className="flex justify-center space-x-4 mt-4">
             <Link legacyBehavior href="/about">
               <a className="hover:text-white transition-colors duration-300">
                 About
@@ -59,11 +59,11 @@ const Footer = () => {
                 Sitemap
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
       </footer>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

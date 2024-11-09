@@ -1,5 +1,5 @@
-import React from "react";
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import React from 'react'
+import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
 
 const Banner = () => {
   return (
@@ -17,11 +17,11 @@ const Banner = () => {
       <div className="flex items-center space-x-1">
         <FaMapMarkerAlt />
         <address>
-          <span>Pro Street, Temecula CA</span>
+          <span>Pro Street, Los Angeles, CA</span>
         </address>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
